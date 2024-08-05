@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.countries-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.country {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.country img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.country h2 {
+  font-size: 1.2em;
+  margin: 10px 0 0;
+}
